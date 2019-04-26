@@ -39,6 +39,33 @@ Can any meaningful data related to addresses be gotten from live audio feed?
 
 ## Data Dictionary
 
+<p align="left"> 
+    
+|Feature (Bin #)|Description|
+|---|---|
+file_name|Name of .wav Audio File
+class|Emergency or Non-Emergency
+emergency_type|Description of Situation
+origin|Broadcastify or YouTube
+good_exception|Whether or not Speech Detection API detected audio or not
+audio_recognition|Speech-to-Text of the Audio Clip
+tempogram_#|Tempo
+spectral_contrast_#|Spectral Contrast
+chroma_cens_#|Chroma Feature Normalized
+spectral_centroid|Spectral Centroid
+spectral_band|Spectral Bandwidth
+spectral_flat|Spectral Flatness
+rolloff|Spectral Rolloff
+chroma_cqt_#|Chroma Continuous Q Transform
+tonnetz_#|Tonnetz
+contrast_#|Spectral Contrast
+mel_#|Mel Scale
+chroma_stft_#|Chroma Short Time Fourier Transform
+mfcc_#|Mel Frequency Cepstrum
+preds|Model Prediction of Class
+
+</p>
+
 ---
 
 <a id='executive-summary'></a>
