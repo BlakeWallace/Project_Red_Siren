@@ -1,4 +1,4 @@
-# ![](https://github.com/project-red-siren-dsi-chi-cc7/wip) Project Red Siren
+# ![](https://github.com/BlakeWallace/Project_Red_Siren) Project Red Siren
 
 ---
 
@@ -26,7 +26,7 @@ Can any meaningful data related to addresses be gotten from live audio feed?
 ---
 
 ## Contents
-[Dictionary](#dictionary)  
+[Data Dictionary](#data-dictionary)  
 [Executive Summary](#executive-summary)  
 [Future iterations/next steps](#next-steps)  
 [Known Issues](#known-issues)  
@@ -39,7 +39,7 @@ Can any meaningful data related to addresses be gotten from live audio feed?
 
 ## Data Dictionary
 
-<p align="left"> 
+<div align="left"> 
     
 |Feature (Bin #)|Description|
 |---|---|
@@ -64,7 +64,7 @@ chroma_stft_#|Chroma Short Time Fourier Transform
 mfcc_#|Mel Frequency Cepstrum
 preds|Model Prediction of Class
 
-</p>
+</div>
 
 ---
 
@@ -76,11 +76,11 @@ preds|Model Prediction of Class
 "Prepared. Responsive. Committed." - FEMA Motto*
 
 
-August 29, 2005, Hurrican Katrina slams into the shores of the United States, leaving a wake of devastation.  To compound the issue, poorly constructed levees along the shores of Louisiana are overpowered, and entire sections of the city of New Orleans are left submerged under water.  As rain falls and water levels rise, people everywhere find themselves in dire situations, trapped in buildings, on rooftops, and ultimately stuck in ways they cannot evade.  Sadly, hundreds of people loose there lives.  
+August 29, 2005, Hurrican Katrina slams into the shores of the United States, leaving a wake of devastation.  To compound the issue, poorly constructed levees along the shores of Louisiana are overpowered, and entire sections of the city of New Orleans are left submerged under water.  As rain falls and water levels rise, people everywhere find themselves in dire situations, trapped in buildings, on rooftops, and ultimately stuck in ways they cannot evade.  Sadly, hundreds of people lose there lives.  
 
 During this tragic event, emergency responders were left with the task of attending to would be victims, while simultaneously struggling to find those who needed assistance.  Project Red Siren successfully lays the foundation needed to expand the resources available to FEMA when attempting to find people needing immediate assistance.  It specifically addresses the question, is this radio chatter from first responders and dispatchers an emergency?  While this question is not deep enough on its own to answer the full problem statement, the model produced is quite accurate, making it a solid starting point for further investigations.
 
-To be precise, the model uses various properties of sound waves to isolate tones, inflections, and other parts of speech that become more pronounced when people are put under stress or duress.  Yes, they are emergency responders and dispatchers, trained to keep their composure in tough situations.  This fact is one of the most remarkable things about the model Project Red Siren has produced.   The differences, although subtle, are nevertheless present; and the precision of the computer classified emergencies with 98% accuaracy on new data. 
+To be precise, the model uses various properties of sound waves to isolate tones, inflections, and other parts of speech that become more pronounced when people are put under stress or duress.  Yes, they are emergency responders and dispatchers, trained to keep their composure in tough situations.  This fact is one of the most remarkable things about the model Project Red Siren has produced.   The differences, although subtle, are nevertheless present; and, the precision of the computer classified emergencies with 98% accuaracy on new data. 
 
 This accuracy was from the beginning amazing to us.  It is a great foundation for further work toward a more robust system that will assist FEMA in determining relevant locations from policy scanner radio broadcasts.  
 
